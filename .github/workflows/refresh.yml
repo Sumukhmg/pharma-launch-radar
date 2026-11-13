@@ -1,0 +1,21 @@
+name: refresh signals
+on:
+  schedule: [{ cron: "0 3 * * 1" }]  # Mondays 03:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python test_engine.py && python -u engine.py
+      - run: |
+          git config user.name "signals-bot"
+          git config user.email "signals-bot@users.noreply.github.com"
+          git add signals.js
+          git diff --cached --quiet || git commit -m "refresh signals $(date -u +%F)"
+          git push
