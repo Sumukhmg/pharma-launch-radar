@@ -1,13 +1,13 @@
 window.SIGNALS = {
- "generated": "2026-11-13",
- "since": "2026-08-15",
+ "generated": "2026-11-16",
+ "since": "2026-08-18",
  "days": 90,
  "counts": {
   "approval": 42,
-  "new indication": 55,
-  "label change": 148,
-  "phase 3 readout": 44,
-  "news": 71
+  "new indication": 56,
+  "label change": 149,
+  "phase 3 readout": 46,
+  "news": 20
  },
  "accounts": [
   {
@@ -100,7 +100,7 @@ window.SIGNALS = {
   },
   {
    "name": "Gilead Sciences",
-   "score": 145,
+   "score": 130,
    "product": "Ather",
    "line": "Congrats on the FDA approval of Bixlenvo on Aug 27. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
    "events": [
@@ -126,7 +126,7 @@ window.SIGNALS = {
      "brand": "Sunlenca",
      "class": "",
      "date": "2026-08-27",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215973"
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215974"
     },
     {
      "sponsor": "GILEAD SCIENCES INC",
@@ -134,93 +134,69 @@ window.SIGNALS = {
      "brand": "Sunlenca",
      "class": "",
      "date": "2026-08-27",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215974"
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215973"
+    }
+   ]
+  },
+  {
+   "name": "Bayer Hlthcare",
+   "score": 120,
+   "product": "Ather",
+   "line": "Congrats on the FDA approval of a new product on Nov 9. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
+   "events": [
+    {
+     "sponsor": "BAYER HEALTHCARE",
+     "kind": "approval",
+     "brand": "a new product",
+     "class": "",
+     "date": "2026-11-09",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221291"
     },
     {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "The Best Way To Lower Drug Prices ? Free Market Competition - OpEd",
-     "class": "eurasiareview.com",
-     "date": "2026-11-11",
-     "url": "https://www.eurasiareview.com/10112026-the-best-way-to-lower-drug-prices-free-market-competition-oped/"
+     "sponsor": "BAYER HLTHCARE",
+     "kind": "new indication",
+     "brand": "Kerendia",
+     "class": "Nonsteroidal Mineralocorticoid-Receptor Antagonist",
+     "date": "2026-09-16",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215341"
     },
     {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "Amgen vs . Gilead Sciences : Which Biotech Dividend Stock Is the Better Buy ?",
-     "class": "aol.com",
-     "date": "2026-10-25",
-     "url": "https://www.aol.com/articles/amgen-vs-gilead-sciences-biotech-084600000.html"
+     "sponsor": "BAYER HEALTHCARE",
+     "kind": "new indication",
+     "brand": "Hyrnuo",
+     "class": "",
+     "date": "2026-09-09",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219972"
     },
     {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "Biotech stocks rally on drug innovation and M & A",
-     "class": "cnbc.com",
-     "date": "2026-10-24",
-     "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html"
+     "sponsor": "BAYER HEALTHCARE LLC",
+     "kind": "label change",
+     "brand": "Miralax",
+     "class": "Osmotic Laxative",
+     "date": "2026-11-06",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022015"
     },
     {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "Credence Research Inc .: Antiviral Drugs Market to Reach USD 125 . 26 Billion by 2035",
-     "class": "finanznachrichten.de",
-     "date": "2026-10-15",
-     "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69851044-credence-research-inc-antiviral-drugs-market-to-reach-usd-125-26-billion-by-2035-credence-research-008.htm"
+     "sponsor": "BAYER HEALTHCARE LLC",
+     "kind": "label change",
+     "brand": "Claritin",
+     "class": "",
+     "date": "2026-09-25",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019658"
     },
     {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "Clinton Global Initiative Seeks to Sustain Progress",
-     "class": "irishecho.com",
-     "date": "2026-09-30",
-     "url": "https://www.irishecho.com/2026/9/clinton-global-initiative-seeks-to-sustain-progress"
-    },
-    {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "Mirum posts phase 3 hepatitis win for  commercially differentiated  challenger to Gilead , Vir",
-     "class": "fiercebiotech.com",
-     "date": "2026-09-28",
-     "url": "https://www.fiercebiotech.com/biotech/mirum-posts-phase-3-hepatitis-win-commercially-differentiated-challenger-gilead-and-vir"
-    },
-    {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "Bill Clinton calls on leaders to fill gaps of  retreating governments",
-     "class": "dailycamera.com",
-     "date": "2026-09-23",
-     "url": "https://www.dailycamera.com/2026/09/23/bill-clinton-clinton-global-initiative-conference/"
-    },
-    {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "Bill Clinton calls on leaders to fill gaps of  retreating governments",
-     "class": "sun-sentinel.com",
-     "date": "2026-09-23",
-     "url": "https://www.sun-sentinel.com/2026/09/23/bill-clinton-clinton-global-initiative-conference/"
-    },
-    {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "Bill Clinton calls on leaders to fill gaps of  retreating governments",
-     "class": "record-bee.com",
-     "date": "2026-09-23",
-     "url": "https://www.record-bee.com/2026/09/23/bill-clinton-clinton-global-initiative-conference/"
-    },
-    {
-     "sponsor": "Gilead Sciences",
-     "kind": "news",
-     "brand": "Bill Clinton calls on leaders to fill gaps of  retreating governments",
-     "class": "orlandosentinel.com",
-     "date": "2026-09-23",
-     "url": "https://www.orlandosentinel.com/2026/09/23/bill-clinton-clinton-global-initiative-conference/"
+     "sponsor": "BAYER HEALTHCARE",
+     "kind": "label change",
+     "brand": "Nubeqa",
+     "class": "",
+     "date": "2026-09-22",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212099"
     }
    ]
   },
   {
    "name": "AbbVie",
-   "score": 130,
+   "score": 115,
    "product": "Ather",
    "line": "Congrats on the FDA approval of Juvmo on Sep 25. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
    "events": [
@@ -287,254 +263,6 @@ window.SIGNALS = {
      "class": "Dry Eye Disease",
      "date": "2026-08-21",
      "url": "https://clinicaltrials.gov/study/NCT07284381"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "Great News for AbbVie Stock Investors | The Motley Fool",
-     "class": "fool.com",
-     "date": "2026-10-22",
-     "url": "https://www.fool.com/investing/2026/10/22/great-news-for-abbvie-stock-investors/"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "Great News for AbbVie Stock Investors",
-     "class": "aol.com",
-     "date": "2026-10-22",
-     "url": "https://www.aol.com/articles/great-news-abbvie-stock-investors-210901000.html"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "DelveInsight Business Research , LLP : Hyperhidrosis Market : Over 60 % of Treated Axillary Patients in Japan Discontinue Therapy , Creating an Opening for Topical Pipeline",
-     "class": "finanznachrichten.de",
-     "date": "2026-10-22",
-     "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69910230-delveinsight-business-research-llp-hyperhidrosis-market-over-60-of-treated-axillary-patients-in-japan-discontinue-therapy-creating-an-opening-for-008.htm"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "Allergan Aesthetics pr\u00e9sente ses derni\u00e8res avanc\u00e9es scientifiques",
-     "class": "tradingsat.com",
-     "date": "2026-10-21",
-     "url": "https://www.tradingsat.com/actualites/informations-societes/allergan-aesthetics-presente-ses-dernieres-avancees-scientifiques-1172174.html"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "Azioni united states : nuovo BUY con dividendo al 6 , 3 %",
-     "class": "trend-online.com",
-     "date": "2026-10-20",
-     "url": "https://www.trend-online.com/2026/10/20/azioni-usa-nuovo-buy-con-dividendo-al-6-3-percento/"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "2 High - Flying Dividend Stocks to Buy and Hold for a Decade",
-     "class": "fool.com",
-     "date": "2026-10-19",
-     "url": "https://www.fool.com/investing/2026/10/19/2-high-flying-dividend-stocks-to-buy-and-hold-for-a-decade/?source=iedfolrf0000001"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "FDA Drug Approvals In September 2026",
-     "class": "rttnews.com",
-     "date": "2026-10-16",
-     "url": "https://www.rttnews.com/3699867/fda-drug-approvals-in-september-2026.aspx"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "FDA Drug Approvals In September 2026",
-     "class": "finanznachrichten.de",
-     "date": "2026-10-16",
-     "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69861533-fda-drug-approvals-in-september-2026-020.htm"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "Rise in biosimilar use after CVS formulary change not sustained",
-     "class": "healio.com",
-     "date": "2026-10-16",
-     "url": "https://www.healio.com/news/rheumatology/20260403/rapid-increase-in-humira-biosimilar-orders-after-cvs-formulary-change-not-sustained"
-    },
-    {
-     "sponsor": "AbbVie",
-     "kind": "news",
-     "brand": "PBM Policy And Legislative Update Fall 2026",
-     "class": "mondaq.com",
-     "date": "2026-10-16",
-     "url": "https://www.mondaq.com:443/unitedstates/healthcare/1855834/pbm-policy-and-legislative-update-fall-2026"
-    }
-   ]
-  },
-  {
-   "name": "Fresenius Kabi",
-   "score": 125,
-   "product": "Ather",
-   "line": "Congrats on the FDA approval of Multibic on Nov 9. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
-   "events": [
-    {
-     "sponsor": "FRESENIUS MEDICAL CARE RENAL THERAPIES GROUP LLC",
-     "kind": "approval",
-     "brand": "Multibic",
-     "class": "",
-     "date": "2026-11-09",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219457"
-    },
-    {
-     "sponsor": "FRESENIUS MEDCL CARE",
-     "kind": "approval",
-     "brand": "Cienby",
-     "class": "",
-     "date": "2026-10-19",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219455"
-    },
-    {
-     "sponsor": "FRESENIUS MEDCL CARE",
-     "kind": "approval",
-     "brand": "Calrezdy",
-     "class": "",
-     "date": "2026-10-19",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
-    },
-    {
-     "sponsor": "FRESENIUS KABI USA",
-     "kind": "label change",
-     "brand": "Levothyroxine Sodium",
-     "class": "",
-     "date": "2026-10-21",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=202231"
-    },
-    {
-     "sponsor": "FRESENIUS KABI USA",
-     "kind": "label change",
-     "brand": "Glucagon",
-     "class": "",
-     "date": "2026-09-16",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=201849"
-    },
-    {
-     "sponsor": "FRESENIUS KABI USA",
-     "kind": "label change",
-     "brand": "Lidocaine Hydrochloride Preservative Free",
-     "class": "",
-     "date": "2026-08-17",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=017584"
-    },
-    {
-     "sponsor": "Fresenius Kabi",
-     "kind": "news",
-     "brand": "Fresenius Acquires Remaining 45 % Stake In MAbxience For Up To \u20ac750 Million",
-     "class": "mondaq.com",
-     "date": "2026-10-19",
-     "url": "https://www.mondaq.com:443/unitedstates/healthcare/1856502/fresenius-acquires-remaining-45-stake-in-mabxience-for-up-to-%E2%82%AC750-million"
-    },
-    {
-     "sponsor": "Fresenius Kabi",
-     "kind": "news",
-     "brand": "Fresenius completes acquisition of mAbxience , creating a stronger platform for future portfolio expansion",
-     "class": "prnewswire.com",
-     "date": "2026-10-01",
-     "url": "https://www.prnewswire.com/news-releases/fresenius-completes-acquisition-of-mabxience-creating-a-stronger-platform-for-future-portfolio-expansion-302895070.html"
-    },
-    {
-     "sponsor": "Fresenius Kabi",
-     "kind": "news",
-     "brand": "Fresenius completes acquisition of mAbxience , creating a stronger platform for future portfolio expansion",
-     "class": "prnewswire.com",
-     "date": "2026-10-01",
-     "url": "http://www.prnewswire.com/news-releases/fresenius-completes-acquisition-of-mabxience-creating-a-stronger-platform-for-future-portfolio-expansion-302895070.html"
-    },
-    {
-     "sponsor": "Fresenius Kabi",
-     "kind": "news",
-     "brand": "Congenital Hyperinsulinism Market to Expand at a CAGR of 12 % During the Forecast Period ( 2026 - 2036 ) as Rising Disease Recognition and Novel Therapies Fuel Market Growth",
-     "class": "prnewswire.com",
-     "date": "2026-08-26",
-     "url": "http://www.prnewswire.com/news-releases/congenital-hyperinsulinism-market-to-expand-at-a-cagr-of-12-during-the-forecast-period-20262036-as-rising-disease-recognition-and-novel-therapies-fuel-market-growth--delveinsight-302860175.html"
-    },
-    {
-     "sponsor": "Fresenius Kabi",
-     "kind": "news",
-     "brand": "DelveInsight Business Research , LLP : Congenital Hyperinsulinism Market to Expand at a CAGR of 12 % During the Forecast Period ( 2026 - 2036 ) as Rising Disease Recognition and Novel Therapies Fuel Market Growth",
-     "class": "finanznachrichten.de",
-     "date": "2026-08-26",
-     "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69414706-delveinsight-business-research-llp-congenital-hyperinsulinism-market-to-expand-at-a-cagr-of-12-during-the-forecast-period-2026-2036-as-rising-dis-008.htm"
-    },
-    {
-     "sponsor": "Fresenius Kabi",
-     "kind": "news",
-     "brand": "Glenmark Pharma US arm launches Calcium Gluconate injection in various formats",
-     "class": "business-standard.com",
-     "date": "2026-08-21",
-     "url": "https://www.business-standard.com/markets/capital-market-news/glenmark-pharma-s-us-arm-launches-calcium-gluconate-injection-in-various-formats-126082100348_1.html"
-    },
-    {
-     "sponsor": "Fresenius Kabi",
-     "kind": "news",
-     "brand": "Glenmark united states launches Calcium Gluconate Injection USP",
-     "class": "business-standard.com",
-     "date": "2026-08-21",
-     "url": "https://www.business-standard.com/markets/capital-market-news/glenmark-usa-launches-calcium-gluconate-injection-usp-126082100260_1.html"
-    }
-   ]
-  },
-  {
-   "name": "Bayer Hlthcare",
-   "score": 120,
-   "product": "Ather",
-   "line": "Congrats on the FDA approval of a new product on Nov 9. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
-   "events": [
-    {
-     "sponsor": "BAYER HEALTHCARE",
-     "kind": "approval",
-     "brand": "a new product",
-     "class": "",
-     "date": "2026-11-09",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221291"
-    },
-    {
-     "sponsor": "BAYER HLTHCARE",
-     "kind": "new indication",
-     "brand": "Kerendia",
-     "class": "Nonsteroidal Mineralocorticoid-Receptor Antagonist",
-     "date": "2026-09-16",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215341"
-    },
-    {
-     "sponsor": "BAYER HEALTHCARE",
-     "kind": "new indication",
-     "brand": "Hyrnuo",
-     "class": "",
-     "date": "2026-09-09",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219972"
-    },
-    {
-     "sponsor": "BAYER HEALTHCARE LLC",
-     "kind": "label change",
-     "brand": "Miralax",
-     "class": "Osmotic Laxative",
-     "date": "2026-11-06",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022015"
-    },
-    {
-     "sponsor": "BAYER HEALTHCARE LLC",
-     "kind": "label change",
-     "brand": "Claritin",
-     "class": "",
-     "date": "2026-09-25",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019658"
-    },
-    {
-     "sponsor": "BAYER HEALTHCARE",
-     "kind": "label change",
-     "brand": "Nubeqa",
-     "class": "",
-     "date": "2026-09-22",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212099"
     }
    ]
   },
@@ -564,7 +292,7 @@ window.SIGNALS = {
      "sponsor": "GLAXOSMITHKLINE LLC",
      "kind": "label change",
      "brand": "Benlysta",
-     "class": "B Lymphocyte Stimulator-specific Inhibitor",
+     "class": "",
      "date": "2026-10-30",
      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761043"
     },
@@ -580,7 +308,7 @@ window.SIGNALS = {
      "sponsor": "GLAXOSMITHKLINE LLC",
      "kind": "label change",
      "brand": "Benlysta",
-     "class": "B Lymphocyte Stimulator-specific Inhibitor",
+     "class": "",
      "date": "2026-08-21",
      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761043"
     },
@@ -667,154 +395,50 @@ window.SIGNALS = {
    ]
   },
   {
-   "name": "Eli Lilly",
-   "score": 105,
+   "name": "Fresenius Kabi",
+   "score": 100,
    "product": "Ather",
-   "line": "Congrats on the FDA approval of Onswik on Sep 23. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
+   "line": "Congrats on the FDA approval of Multibic on Nov 9. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
    "events": [
     {
-     "sponsor": "ELI LILLY AND CO",
+     "sponsor": "FRESENIUS MEDICAL CARE RENAL THERAPIES GROUP LLC",
      "kind": "approval",
-     "brand": "Onswik",
+     "brand": "Multibic",
      "class": "",
-     "date": "2026-09-23",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761408"
+     "date": "2026-11-09",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219457"
     },
     {
-     "sponsor": "ELI LILLY AND CO",
-     "kind": "new indication",
-     "brand": "Olumiant",
-     "class": "Janus Kinase Inhibitor",
-     "date": "2026-10-09",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207924"
+     "sponsor": "FRESENIUS MEDCL CARE",
+     "kind": "approval",
+     "brand": "Calrezdy",
+     "class": "",
+     "date": "2026-10-19",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
     },
     {
-     "sponsor": "ELI LILLY AND CO",
-     "kind": "new indication",
-     "brand": "Olumiant",
-     "class": "Janus Kinase Inhibitor",
-     "date": "2026-09-25",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207924"
+     "sponsor": "FRESENIUS MEDCL CARE",
+     "kind": "approval",
+     "brand": "Cienby",
+     "class": "",
+     "date": "2026-10-19",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219455"
     },
     {
-     "sponsor": "ELI LILLY AND CO",
-     "kind": "new indication",
-     "brand": "Inluriyo",
-     "class": "Estrogen Receptor Antagonist",
-     "date": "2026-09-18",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218881"
-    },
-    {
-     "sponsor": "ELI LILLY AND CO",
-     "kind": "new indication",
-     "brand": "Verzenio",
-     "class": "Kinase Inhibitor",
-     "date": "2026-09-18",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208716"
-    },
-    {
-     "sponsor": "ELI LILLY AND CO",
-     "kind": "new indication",
-     "brand": "Mounjaro",
-     "class": "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist",
-     "date": "2026-08-27",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215866"
-    },
-    {
-     "sponsor": "ELI LILLY AND CO",
-     "kind": "new indication",
-     "brand": "Mounjaro",
-     "class": "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist",
-     "date": "2026-08-27",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215866"
-    },
-    {
-     "sponsor": "ELI LILLY AND CO",
-     "kind": "new indication",
-     "brand": "Zepbound",
-     "class": "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist",
-     "date": "2026-08-26",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217806"
-    },
-    {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "JPMorgan Predicted Strong Wegovy Pill Sales ( and Was Right ). Is Novo Nordisk Stock a Buy Now ?",
-     "class": "fool.com",
-     "date": "2026-11-12",
-     "url": "https://www.fool.com/investing/2026/11/11/jpmorgan-predicted-strong-wegovy-pill-sales-and-wa/?source=iedfolrf0000001"
-    },
-    {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "Oral GLP - 1 reduces sleep apnea severity , cardiometabolic risk",
-     "class": "healio.com",
-     "date": "2026-11-11",
-     "url": "https://www.healio.com/news/cardiology/20261109/oral-glp1-reduces-sleep-apnea-severity-improves-cardiometabolic-risk-factors"
-    },
-    {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "Transform - HTN : Lorundrostat Maintains Blood Pressure Reductions in Open - Label Extension",
-     "class": "hcplive.com",
-     "date": "2026-11-11",
-     "url": "https://www.hcplive.com/view/transform-htn-lorundrostat-maintains-blood-pressure-reductions-in-open-label-extension"
-    },
-    {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "Biotech and Pharma Industry News | BioPharma Dive",
-     "class": "biopharmadive.com",
-     "date": "2026-11-07",
-     "url": "https://www.biopharmadive.com/?page=2&_sp=53e832ea-6e1d-4e13-a559-16ec877bf761"
-    },
-    {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "Biotech and Pharma Industry News | BioPharma Dive",
-     "class": "biopharmadive.com",
-     "date": "2026-11-06",
-     "url": "https://www.biopharmadive.com/?page=2&_sp=9a47ea2d-9933-4f85-abb3-9ba4d3fa31bd"
-    },
-    {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "Guide to Privacy , Security , and AI Regulations in November",
-     "class": "natlawreview.com",
-     "date": "2026-11-05",
-     "url": "https://natlawreview.com/article/br-privacy-security-ai-download-november-2026"
-    },
-    {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "Biotech stocks rally on drug innovation and M & A",
-     "class": "cnbc.com",
-     "date": "2026-10-24",
-     "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html"
-    },
-    {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "Amgen vs . Eli Lilly : Does the GLP - 1 Mania Make LLY Stock a Better Buy in 2026 ?",
-     "class": "fool.com",
-     "date": "2026-10-22",
-     "url": "https://www.fool.com/coverage/better-buy/2026/10/22/amgen-vs-eli-lilly-does-the-glp-1-mania-make-lly-stock-a-better-buy-in-2026/"
-    },
-    {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "Lilly , Mubadala Bio announce landmark deal to advance pharmaceutical manufacturing in Abu Dhabi",
-     "class": "zawya.com",
+     "sponsor": "FRESENIUS KABI USA",
+     "kind": "label change",
+     "brand": "Levothyroxine Sodium",
+     "class": "",
      "date": "2026-10-21",
-     "url": "https://www.zawya.com/en/projects/health/lilly-mubadala-bio-announce-landmark-deal-to-advance-pharmaceutical-manufacturing-in-abu-dhabi-1799487"
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=202231"
     },
     {
-     "sponsor": "Eli Lilly",
-     "kind": "news",
-     "brand": "Apple iPhone Duo in short supply , plus 2 stocks fueling an AI rebound",
-     "class": "cnbc.com",
-     "date": "2026-10-21",
-     "url": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html"
+     "sponsor": "FRESENIUS KABI USA",
+     "kind": "label change",
+     "brand": "Glucagon",
+     "class": "",
+     "date": "2026-09-16",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=201849"
     }
    ]
   },
@@ -903,118 +527,6 @@ window.SIGNALS = {
      "class": "",
      "date": "2026-09-11",
      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761344"
-    }
-   ]
-  },
-  {
-   "name": "Merck Sharp Dohme",
-   "score": 95,
-   "product": "Ather",
-   "line": "Saw Keytruda picked up a new indication on Oct 16. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
-   "events": [
-    {
-     "sponsor": "MERCK SHARP DOHME",
-     "kind": "new indication",
-     "brand": "Keytruda",
-     "class": "Programmed Death Receptor-1 Blocking Antibody",
-     "date": "2026-10-16",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
-    },
-    {
-     "sponsor": "MERCK SHARP DOHME",
-     "kind": "new indication",
-     "brand": "Keytruda Qlex",
-     "class": "Programmed Death Receptor-1 Blocking Antibody",
-     "date": "2026-10-16",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761467"
-    },
-    {
-     "sponsor": "MERCK SHARP DOHME",
-     "kind": "new indication",
-     "brand": "Enflonsia",
-     "class": "Respiratory Syncytial Virus Anti-F Protein Monoclonal Antibody",
-     "date": "2026-10-14",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761432"
-    },
-    {
-     "sponsor": "MERCK SHARP DOHME",
-     "kind": "new indication",
-     "brand": "Welireg",
-     "class": "Hypoxia-inducible Factor Inhibitor",
-     "date": "2026-09-24",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215383"
-    },
-    {
-     "sponsor": "MERCK SHARP DOHME",
-     "kind": "new indication",
-     "brand": "Winrevair",
-     "class": "",
-     "date": "2026-09-21",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761363"
-    },
-    {
-     "sponsor": "MERCK SHARP DOHME",
-     "kind": "label change",
-     "brand": "Welireg",
-     "class": "Hypoxia-inducible Factor Inhibitor",
-     "date": "2026-11-06",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215383"
-    },
-    {
-     "sponsor": "MERCK SHARP DOHME",
-     "kind": "label change",
-     "brand": "Welireg",
-     "class": "Hypoxia-inducible Factor Inhibitor",
-     "date": "2026-09-24",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215383"
-    },
-    {
-     "sponsor": "MERCK SHARP DOHME",
-     "kind": "label change",
-     "brand": "Winrevair",
-     "class": "",
-     "date": "2026-09-21",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761363"
-    },
-    {
-     "sponsor": "MERCK SHARP DOHME",
-     "kind": "label change",
-     "brand": "Winrevair",
-     "class": "",
-     "date": "2026-09-21",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761363"
-    },
-    {
-     "sponsor": "Merck Sharp Dohme",
-     "kind": "news",
-     "brand": "Eisai Deepens Its Oncology Evidence Base at ESMO Congress 2026",
-     "class": "prnewswire.com",
-     "date": "2026-10-15",
-     "url": "http://www.prnewswire.com/news-releases/eisai-deepens-its-oncology-evidence-base-at-esmo-congress-2026-302909021.html"
-    },
-    {
-     "sponsor": "Merck Sharp Dohme",
-     "kind": "news",
-     "brand": "Kazia Therapeutics Reports Preclinical Data Showing Paxalisib Reprograms Immunotherapy - Resistant MSS / pMMR Colorectal Cancer and Enhances Response to Immunotherapy",
-     "class": "asiabulletin.com",
-     "date": "2026-09-01",
-     "url": "http://www.asiabulletin.com/news/279278972/kazia-therapeutics-reports-preclinical-data-showing-paxalisib-reprograms-immunotherapy-resistant-msspmmr-colorectal-cancer-and-enhances-response-to-immunotherapy"
-    },
-    {
-     "sponsor": "Merck Sharp Dohme",
-     "kind": "news",
-     "brand": "DelveInsight Business Research , LLP : Oncolytic Virus Cancer Therapy Market Expected to Expand Rapidly During the Forecast Period ( 2026 - 2036 ) Amid Rising Investments in Next - Generation Cancer Treatments",
-     "class": "finanznachrichten.de",
-     "date": "2026-08-26",
-     "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69414779-delveinsight-business-research-llp-oncolytic-virus-cancer-therapy-market-expected-to-expand-rapidly-during-the-forecast-period-2026-2036-amid-risi-008.htm"
-    },
-    {
-     "sponsor": "Merck Sharp Dohme",
-     "kind": "news",
-     "brand": "TIL Therapy Clinical Trial Pipeline Appears Robust With 17+ Key Pharma Companies Actively Working in the Therapeutics Segment | DelveInsight",
-     "class": "manilatimes.net",
-     "date": "2026-08-19",
-     "url": "https://www.manilatimes.net/2026/08/20/tmt-newswire/globenewswire/til-therapy-clinical-trial-pipeline-appears-robust-with-17-key-pharma-companies-actively-working-in-the-therapeutics-segment-delveinsight/2408715"
     }
    ]
   },
@@ -1190,7 +702,7 @@ window.SIGNALS = {
      "brand": "Talzenna",
      "class": "",
      "date": "2026-10-26",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211651"
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217439"
     },
     {
      "sponsor": "PFIZER",
@@ -1198,7 +710,7 @@ window.SIGNALS = {
      "brand": "Talzenna",
      "class": "",
      "date": "2026-10-26",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217439"
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211651"
     },
     {
      "sponsor": "PFIZER INC",
@@ -1214,7 +726,7 @@ window.SIGNALS = {
      "brand": "Zyvox",
      "class": "Oxazolidinone Antibacterial",
      "date": "2026-10-21",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021130"
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021131"
     },
     {
      "sponsor": "PFIZER",
@@ -1222,7 +734,7 @@ window.SIGNALS = {
      "brand": "Zyvox",
      "class": "Oxazolidinone Antibacterial",
      "date": "2026-10-21",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021131"
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021130"
     },
     {
      "sponsor": "PFIZER",
@@ -1279,14 +791,6 @@ window.SIGNALS = {
      "class": "Respiratory Syncytial Virus (RSV)",
      "date": "2026-08-25",
      "url": "https://clinicaltrials.gov/study/NCT07543380"
-    },
-    {
-     "sponsor": "PFIZER",
-     "kind": "label change",
-     "brand": "Zavzpret",
-     "class": "",
-     "date": "2026-08-17",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216386"
     }
    ]
   },
@@ -1308,7 +812,7 @@ window.SIGNALS = {
      "sponsor": "AVYXA HOLDINGS, LLC.",
      "kind": "approval",
      "brand": "Axycis",
-     "class": "Platinum-based Drug",
+     "class": "",
      "date": "2026-10-29",
      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220748"
     },
@@ -1323,122 +827,74 @@ window.SIGNALS = {
    ]
   },
   {
-   "name": "Takeda",
-   "score": 85,
+   "name": "Eli Lilly",
+   "score": 90,
    "product": "Ather",
-   "line": "Congrats on the FDA approval of Mimrylo on Aug 28. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
+   "line": "Congrats on the FDA approval of Onswik on Sep 23. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
    "events": [
     {
-     "sponsor": "TAKEDA PHARMS AM",
+     "sponsor": "ELI LILLY AND CO",
      "kind": "approval",
-     "brand": "Mimrylo",
+     "brand": "Onswik",
      "class": "",
-     "date": "2026-08-28",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220605"
+     "date": "2026-09-23",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761408"
     },
     {
-     "sponsor": "TAKEDA PHARMS USA",
-     "kind": "label change",
-     "brand": "Pentasa",
-     "class": "Aminosalicylate",
-     "date": "2026-10-14",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020049"
+     "sponsor": "ELI LILLY AND CO",
+     "kind": "new indication",
+     "brand": "Olumiant",
+     "class": "Janus Kinase Inhibitor",
+     "date": "2026-10-09",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207924"
     },
     {
-     "sponsor": "TAKEDA PHARMS USA",
-     "kind": "label change",
-     "brand": "Lialda",
-     "class": "Aminosalicylate",
-     "date": "2026-10-14",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022000"
+     "sponsor": "ELI LILLY AND CO",
+     "kind": "new indication",
+     "brand": "Olumiant",
+     "class": "Janus Kinase Inhibitor",
+     "date": "2026-09-25",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207924"
     },
     {
-     "sponsor": "Takeda",
-     "kind": "phase 3 readout",
-     "brand": "TAK-788 as First-Line Treatment Versus Platinum-Based Chemotherapy for Non-Small Cell Lung Cancer (NSCLC) With EGFR Exon 20 Insertion Mutations",
-     "class": "Advanced/Metastatic Non-Small Cell Lung Cancer (NSCLC)",
-     "date": "2026-09-22",
-     "url": "https://clinicaltrials.gov/study/NCT04129502"
+     "sponsor": "ELI LILLY AND CO",
+     "kind": "new indication",
+     "brand": "Inluriyo",
+     "class": "Estrogen Receptor Antagonist",
+     "date": "2026-09-18",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218881"
     },
     {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "Biotech and Pharma Industry News | BioPharma Dive",
-     "class": "biopharmadive.com",
-     "date": "2026-11-07",
-     "url": "https://www.biopharmadive.com/?page=2&_sp=53e832ea-6e1d-4e13-a559-16ec877bf761"
+     "sponsor": "ELI LILLY AND CO",
+     "kind": "new indication",
+     "brand": "Verzenio",
+     "class": "Kinase Inhibitor",
+     "date": "2026-09-18",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208716"
     },
     {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "Biotech and Pharma Industry News | BioPharma Dive",
-     "class": "biopharmadive.com",
-     "date": "2026-11-06",
-     "url": "https://www.biopharmadive.com/?page=2&_sp=9a47ea2d-9933-4f85-abb3-9ba4d3fa31bd"
+     "sponsor": "ELI LILLY AND CO",
+     "kind": "new indication",
+     "brand": "Mounjaro",
+     "class": "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist",
+     "date": "2026-08-27",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215866"
     },
     {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "Protagonist Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
-     "class": "hawaiitelegraph.com",
-     "date": "2026-11-06",
-     "url": "http://www.hawaiitelegraph.com/news/279415040/protagonist-reports-third-quarter-2026-financial-results-and-provides-corporate-update"
+     "sponsor": "ELI LILLY AND CO",
+     "kind": "new indication",
+     "brand": "Mounjaro",
+     "class": "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist",
+     "date": "2026-08-27",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215866"
     },
     {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "Protagonist Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
-     "class": "tennesseedaily.com",
-     "date": "2026-11-05",
-     "url": "http://www.tennesseedaily.com/news/279415040/protagonist-reports-third-quarter-2026-financial-results-and-provides-corporate-update"
-    },
-    {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "F . Hoffmann - La Roche Ltd : Roche continues strong momentum in the third quarter with sales growth of +7 % at constant exchange rates ( CER ) and +8 % in CHF ; Group sales increase +6 % ( CER ), +1 % in CHF , in the first nine [\u2026]",
-     "class": "finanznachrichten.de",
-     "date": "2026-10-22",
-     "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69902135-f-hoffmann-la-roche-ltd-roche-continues-strong-momentum-in-the-third-quarter-with-sales-growth-of-7-at-constant-exchange-rates-cer-and-8-in-ch-399.htm"
-    },
-    {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "Takeda ORZEYFUL Launches Simultaneously in Japan , China for Narcolepsy Type 1",
-     "class": "sleepreviewmag.com",
-     "date": "2026-10-22",
-     "url": "https://sleepreviewmag.com/sleep-disorders/hypersomnias/narcolepsy/takedas-orzeyful-launches-simultaneously-in-japan-china/"
-    },
-    {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "\u300c \u81d3\u5668\u79fb\u690d\u306b\u7406\u89e3\u3092 \u300d \u5927\u5206\u5e02\u3067\u8857\u982d\u30ad\u30e3\u30f3\u30da\u30fc\u30f3 \u5553\u767a\u7528\u30ea\u30fc\u30d5\u30ec\u30c3\u30c8\u306a\u3069\u914d\u5e03 - \u5927\u5206\u306e\u30cb\u30e5\u30fc\u30b9\u306a\u3089 \u5927\u5206\u5408\u540c\u65b0\u805e\u30d7\u30ec\u30df\u30a2\u30e0\u30aa\u30f3\u30e9\u30a4\u30f3 Gate",
-     "class": "oita-press.co.jp",
-     "date": "2026-10-21",
-     "url": "https://www.oita-press.co.jp/1010000000/2026/10/21/JDC2026102100717"
-    },
-    {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "\u300c \u6e29\u6cc9\u30a6\u30a7\u30eb\u30cd\u30b9\u7814\u7a76\u30bb\u30f3\u30bf\u30fc \u300d \u5927\u5206\u5927\u3067\u521d\u4f1a\u5408 \u4e8b\u696d\u63a8\u9032\u306e\u5225\u5e9c\u5e02\u3068\u9023\u643a\u3078\u610f\u898b\u4ea4\u63db - \u5927\u5206\u306e\u30cb\u30e5\u30fc\u30b9\u306a\u3089 \u5927\u5206\u5408\u540c\u65b0\u805e\u30d7\u30ec\u30df\u30a2\u30e0\u30aa\u30f3\u30e9\u30a4\u30f3 Gate",
-     "class": "oita-press.co.jp",
-     "date": "2026-10-21",
-     "url": "https://www.oita-press.co.jp/1010000000/2026/10/21/JDC2026102100724"
-    },
-    {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "\u4e09\u597d\u51b7\u6696\u623f\u3068\u7530\u8fd1\u3055\u3093\u7d3a\u7dac\u8912\u7ae0 \u3001 \u5927\u5206\u770c\u5e81\u3067\u4f1d\u9054\u5f0f \u79c1\u8ca1\u5bc4\u4ed8 \u300c \u3053\u308c\u304b\u3089\u3082\u8ca2\u732e\u3067\u304d\u308c\u3070 \u300d - \u5927\u5206\u306e\u30cb\u30e5\u30fc\u30b9\u306a\u3089 \u5927\u5206\u5408\u540c\u65b0\u805e\u30d7\u30ec\u30df\u30a2\u30e0\u30aa\u30f3\u30e9\u30a4\u30f3 Gate",
-     "class": "oita-press.co.jp",
-     "date": "2026-10-21",
-     "url": "https://www.oita-press.co.jp/1010000000/2026/10/21/JDC2026102100890"
-    },
-    {
-     "sponsor": "Takeda",
-     "kind": "news",
-     "brand": "\u3010 \u5927\u5206\u5408\u540c\u65b0\u805e\u6587\u5316\u8cde \u53d7\u8cde\u8005\u306e\u696d\u7e3e \u3011 \u5927\u5206\u6606\u866b\u540c\u597d\u4f1a\u540d\u8a89\u4f1a\u54e1 \u30fb \u4e09\u5b85\u6b66\u6c0f \uff08 83 \uff09 \u300c \u866b\u5c4b \u300d \u7d44\u7e54\u3057\u60c5\u5831\u5171\u6709 - \u5927\u5206\u306e\u30cb\u30e5\u30fc\u30b9\u306a\u3089 \u5927\u5206\u5408\u540c\u65b0\u805e\u30d7\u30ec\u30df\u30a2\u30e0\u30aa\u30f3\u30e9\u30a4\u30f3 Gate",
-     "class": "oita-press.co.jp",
-     "date": "2026-10-20",
-     "url": "https://www.oita-press.co.jp/1010000000/2026/10/21/JDC2026092901532"
+     "sponsor": "ELI LILLY AND CO",
+     "kind": "new indication",
+     "brand": "Zepbound",
+     "class": "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist",
+     "date": "2026-08-26",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217806"
     }
    ]
   },
@@ -1507,6 +963,86 @@ window.SIGNALS = {
    ]
   },
   {
+   "name": "Merck Sharp Dohme",
+   "score": 80,
+   "product": "Ather",
+   "line": "Saw Keytruda picked up a new indication on Oct 16. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
+   "events": [
+    {
+     "sponsor": "MERCK SHARP DOHME",
+     "kind": "new indication",
+     "brand": "Keytruda",
+     "class": "Programmed Death Receptor-1 Blocking Antibody",
+     "date": "2026-10-16",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+    },
+    {
+     "sponsor": "MERCK SHARP DOHME",
+     "kind": "new indication",
+     "brand": "Keytruda Qlex",
+     "class": "Programmed Death Receptor-1 Blocking Antibody",
+     "date": "2026-10-16",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761467"
+    },
+    {
+     "sponsor": "MERCK SHARP DOHME",
+     "kind": "new indication",
+     "brand": "Enflonsia",
+     "class": "Respiratory Syncytial Virus Anti-F Protein Monoclonal Antibody",
+     "date": "2026-10-14",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761432"
+    },
+    {
+     "sponsor": "MERCK SHARP DOHME",
+     "kind": "new indication",
+     "brand": "Welireg",
+     "class": "Hypoxia-inducible Factor Inhibitor",
+     "date": "2026-09-24",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215383"
+    },
+    {
+     "sponsor": "MERCK SHARP DOHME",
+     "kind": "new indication",
+     "brand": "Winrevair",
+     "class": "",
+     "date": "2026-09-21",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761363"
+    },
+    {
+     "sponsor": "MERCK SHARP DOHME",
+     "kind": "label change",
+     "brand": "Welireg",
+     "class": "Hypoxia-inducible Factor Inhibitor",
+     "date": "2026-11-06",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215383"
+    },
+    {
+     "sponsor": "MERCK SHARP DOHME",
+     "kind": "label change",
+     "brand": "Welireg",
+     "class": "Hypoxia-inducible Factor Inhibitor",
+     "date": "2026-09-24",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215383"
+    },
+    {
+     "sponsor": "MERCK SHARP DOHME",
+     "kind": "label change",
+     "brand": "Winrevair",
+     "class": "",
+     "date": "2026-09-21",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761363"
+    },
+    {
+     "sponsor": "MERCK SHARP DOHME",
+     "kind": "label change",
+     "brand": "Winrevair",
+     "class": "",
+     "date": "2026-09-21",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761363"
+    }
+   ]
+  },
+  {
    "name": "Sandoz",
    "score": 70,
    "product": "Ather",
@@ -1543,6 +1079,46 @@ window.SIGNALS = {
      "class": "RANK Ligand Inhibitor",
      "date": "2026-10-23",
      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761362"
+    }
+   ]
+  },
+  {
+   "name": "Takeda",
+   "score": 70,
+   "product": "Ather",
+   "line": "Congrats on the FDA approval of Mimrylo on Aug 28. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
+   "events": [
+    {
+     "sponsor": "TAKEDA PHARMS AM",
+     "kind": "approval",
+     "brand": "Mimrylo",
+     "class": "",
+     "date": "2026-08-28",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220605"
+    },
+    {
+     "sponsor": "TAKEDA PHARMS USA",
+     "kind": "label change",
+     "brand": "Pentasa",
+     "class": "Aminosalicylate",
+     "date": "2026-10-14",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020049"
+    },
+    {
+     "sponsor": "TAKEDA PHARMS USA",
+     "kind": "label change",
+     "brand": "Lialda",
+     "class": "Aminosalicylate",
+     "date": "2026-10-14",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022000"
+    },
+    {
+     "sponsor": "Takeda",
+     "kind": "phase 3 readout",
+     "brand": "TAK-788 as First-Line Treatment Versus Platinum-Based Chemotherapy for Non-Small Cell Lung Cancer (NSCLC) With EGFR Exon 20 Insertion Mutations",
+     "class": "Advanced/Metastatic Non-Small Cell Lung Cancer (NSCLC)",
+     "date": "2026-09-22",
+     "url": "https://clinicaltrials.gov/study/NCT04129502"
     }
    ]
   },
@@ -1883,6 +1459,38 @@ window.SIGNALS = {
    ]
   },
   {
+   "name": "Elevar",
+   "score": 40,
+   "product": "Ather",
+   "line": "Congrats on the FDA approval of Lyrfigtu on Sep 23. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
+   "events": [
+    {
+     "sponsor": "ELEVAR",
+     "kind": "approval",
+     "brand": "Lyrfigtu",
+     "class": "",
+     "date": "2026-09-23",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220425"
+    }
+   ]
+  },
+  {
+   "name": "Xbrane Biopharma Ab",
+   "score": 40,
+   "product": "Ather",
+   "line": "Congrats on the FDA approval of Lucamzi on Oct 27. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
+   "events": [
+    {
+     "sponsor": "XBRANE BIOPHARMA AB",
+     "kind": "approval",
+     "brand": "Lucamzi",
+     "class": "",
+     "date": "2026-10-27",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761187"
+    }
+   ]
+  },
+  {
    "name": "Adventapharma",
    "score": 40,
    "product": "Ather",
@@ -2027,22 +1635,6 @@ window.SIGNALS = {
    ]
   },
   {
-   "name": "Curium",
-   "score": 40,
-   "product": "Ather",
-   "line": "Congrats on the FDA approval of Bexlutry on Sep 14. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
-   "events": [
-    {
-     "sponsor": "CURIUM",
-     "kind": "approval",
-     "brand": "Bexlutry",
-     "class": "",
-     "date": "2026-09-14",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218525"
-    }
-   ]
-  },
-  {
    "name": "Priovant Therap",
    "score": 40,
    "product": "Ather",
@@ -2055,6 +1647,22 @@ window.SIGNALS = {
      "class": "",
      "date": "2026-08-27",
      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220106"
+    }
+   ]
+  },
+  {
+   "name": "Curium",
+   "score": 40,
+   "product": "Ather",
+   "line": "Congrats on the FDA approval of Bexlutry on Sep 14. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
+   "events": [
+    {
+     "sponsor": "CURIUM",
+     "kind": "approval",
+     "brand": "Bexlutry",
+     "class": "",
+     "date": "2026-09-14",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218525"
     }
    ]
   },
@@ -2139,38 +1747,6 @@ window.SIGNALS = {
    ]
   },
   {
-   "name": "Elevar",
-   "score": 40,
-   "product": "Ather",
-   "line": "Congrats on the FDA approval of Lyrfigtu on Sep 23. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
-   "events": [
-    {
-     "sponsor": "ELEVAR",
-     "kind": "approval",
-     "brand": "Lyrfigtu",
-     "class": "",
-     "date": "2026-09-23",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220425"
-    }
-   ]
-  },
-  {
-   "name": "Xbrane Biopharma Ab",
-   "score": 40,
-   "product": "Ather",
-   "line": "Congrats on the FDA approval of Lucamzi on Oct 27. The first months of a launch are when HCP questions spike, and Ather answers them 24/7, checked against your approved label.",
-   "events": [
-    {
-     "sponsor": "XBRANE BIOPHARMA AB",
-     "kind": "approval",
-     "brand": "Lucamzi",
-     "class": "",
-     "date": "2026-10-27",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761187"
-    }
-   ]
-  },
-  {
    "name": "Novo",
    "score": 35,
    "product": "Ather",
@@ -2195,51 +1771,19 @@ window.SIGNALS = {
    ]
   },
   {
-   "name": "B Braun",
-   "score": 30,
-   "product": "Jarvis",
-   "line": "Noticed the Heparin Sodium 25,000 Units In Dextrose 5% In Plastic Container label was updated on Oct 26. Jarvis gets your field team up to speed on the change before their next HCP call.",
-   "events": [
-    {
-     "sponsor": "B BRAUN",
-     "kind": "label change",
-     "brand": "Heparin Sodium 25,000 Units In Dextrose 5% In Plastic Container",
-     "class": "",
-     "date": "2026-10-26",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019952"
-    },
-    {
-     "sponsor": "B BRAUN",
-     "kind": "label change",
-     "brand": "Heparin Sodium 25,000 Units In Sodium Chloride 0.45% In Plastic Container",
-     "class": "",
-     "date": "2026-10-26",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019953"
-    },
-    {
-     "sponsor": "B BRAUN",
-     "kind": "label change",
-     "brand": "Dextrose 70% In Plastic Container",
-     "class": "",
-     "date": "2026-10-20",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019626"
-    },
-    {
-     "sponsor": "B BRAUN",
-     "kind": "label change",
-     "brand": "Dextrose 5% And Sodium Chloride 0.11% In Plastic Container",
-     "class": "",
-     "date": "2026-09-29",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019631"
-    }
-   ]
-  },
-  {
    "name": "Apotex",
    "score": 30,
    "product": "Jarvis",
-   "line": "Noticed the Paxil label was updated on Sep 23. Jarvis gets your field team up to speed on the change before their next HCP call.",
+   "line": "Noticed the Paxil Cr label was updated on Sep 23. Jarvis gets your field team up to speed on the change before their next HCP call.",
    "events": [
+    {
+     "sponsor": "APOTEX",
+     "kind": "label change",
+     "brand": "Paxil Cr",
+     "class": "",
+     "date": "2026-09-23",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020936"
+    },
     {
      "sponsor": "APOTEX",
      "kind": "label change",
@@ -2255,14 +1799,6 @@ window.SIGNALS = {
      "class": "",
      "date": "2026-09-23",
      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020710"
-    },
-    {
-     "sponsor": "APOTEX",
-     "kind": "label change",
-     "brand": "Paxil Cr",
-     "class": "",
-     "date": "2026-09-23",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020936"
     }
    ]
   },
@@ -2315,6 +1851,46 @@ window.SIGNALS = {
    ]
   },
   {
+   "name": "B Braun",
+   "score": 30,
+   "product": "Jarvis",
+   "line": "Noticed the Heparin Sodium 25,000 Units In Dextrose 5% In Plastic Container label was updated on Oct 26. Jarvis gets your field team up to speed on the change before their next HCP call.",
+   "events": [
+    {
+     "sponsor": "B BRAUN",
+     "kind": "label change",
+     "brand": "Heparin Sodium 25,000 Units In Dextrose 5% In Plastic Container",
+     "class": "",
+     "date": "2026-10-26",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019952"
+    },
+    {
+     "sponsor": "B BRAUN",
+     "kind": "label change",
+     "brand": "Heparin Sodium 25,000 Units In Sodium Chloride 0.45% In Plastic Container",
+     "class": "",
+     "date": "2026-10-26",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019953"
+    },
+    {
+     "sponsor": "B BRAUN",
+     "kind": "label change",
+     "brand": "Dextrose 70% In Plastic Container",
+     "class": "",
+     "date": "2026-10-20",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019626"
+    },
+    {
+     "sponsor": "B BRAUN",
+     "kind": "label change",
+     "brand": "Dextrose 5% And Sodium Chloride 0.11% In Plastic Container",
+     "class": "",
+     "date": "2026-09-29",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019631"
+    }
+   ]
+  },
+  {
    "name": "Celltrion",
    "score": 30,
    "product": "Jarvis",
@@ -2355,34 +1931,66 @@ window.SIGNALS = {
    ]
   },
   {
-   "name": "Blueprint Medicines",
-   "score": 25,
-   "product": "Ather",
-   "line": "Saw Ayvakit picked up a new indication on Oct 16. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
+   "name": "Chattem Sanofi",
+   "score": 30,
+   "product": "Jarvis",
+   "line": "Noticed the Allegra Hives label was updated on Nov 10. Jarvis gets your field team up to speed on the change before their next HCP call.",
    "events": [
     {
-     "sponsor": "BLUEPRINT MEDICINES",
-     "kind": "new indication",
-     "brand": "Ayvakit",
-     "class": "Kinase Inhibitor",
-     "date": "2026-10-16",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212608"
+     "sponsor": "CHATTEM SANOFI",
+     "kind": "label change",
+     "brand": "Allegra Hives",
+     "class": "",
+     "date": "2026-11-10",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020872"
+    },
+    {
+     "sponsor": "CHATTEM SANOFI",
+     "kind": "label change",
+     "brand": "Allegra-D 24 Hour Allergy And Congestion",
+     "class": "",
+     "date": "2026-11-06",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021704"
+    },
+    {
+     "sponsor": "CHATTEM SANOFI",
+     "kind": "label change",
+     "brand": "Xyzal Allergy 24Hr",
+     "class": "",
+     "date": "2026-08-31",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209090"
     }
    ]
   },
   {
-   "name": "Famygen Life Sci",
-   "score": 25,
-   "product": "Ather",
-   "line": "Saw Ryzumvi picked up a new indication on Oct 16. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
+   "name": "Vaxcyte",
+   "score": 30,
+   "product": "Simulation Studio",
+   "line": "Congrats on wrapping up a Phase 3 study (Pneumococcal Disease). Before launch, Simulation Studio lets you test messaging with AI HCP twins in days instead of months.",
    "events": [
     {
-     "sponsor": "FAMYGEN LIFE SCI",
-     "kind": "new indication",
-     "brand": "Ryzumvi",
-     "class": "",
-     "date": "2026-10-16",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217064"
+     "sponsor": "Vaxcyte, Inc.",
+     "kind": "phase 3 readout",
+     "brand": "Safety, Tolerability, and Immunogenicity of VAX-31 in Adults \u226550 Years With Prior Pneumococcal Vaccination",
+     "class": "Pneumococcal Disease",
+     "date": "2026-10-25",
+     "url": "https://clinicaltrials.gov/study/NCT07425392"
+    },
+    {
+     "sponsor": "Vaxcyte, Inc.",
+     "kind": "phase 3 readout",
+     "brand": "A Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of VAX-31 With Influenza Vaccine in Adults \u2265 50 Years of Age",
+     "class": "Pneumococcal Disease",
+     "date": "2026-10-21",
+     "url": "https://clinicaltrials.gov/study/NCT07365826"
+    },
+    {
+     "sponsor": "Vaxcyte, Inc.",
+     "kind": "phase 3 readout",
+     "brand": "Safety, Tolerability, and Immunogenicity of VAX-31 in Adults \u226550 Years With Immunobridging to Adults 18-49",
+     "class": "Pneumococcal Disease",
+     "date": "2026-09-17",
+     "url": "https://clinicaltrials.gov/study/NCT07284654"
     }
    ]
   },
@@ -2403,6 +2011,70 @@ window.SIGNALS = {
    ]
   },
   {
+   "name": "Famygen Life Sci",
+   "score": 25,
+   "product": "Ather",
+   "line": "Saw Ryzumvi picked up a new indication on Oct 16. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
+   "events": [
+    {
+     "sponsor": "FAMYGEN LIFE SCI",
+     "kind": "new indication",
+     "brand": "Ryzumvi",
+     "class": "",
+     "date": "2026-10-16",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217064"
+    }
+   ]
+  },
+  {
+   "name": "Biofrontera",
+   "score": 25,
+   "product": "Ather",
+   "line": "Saw Ameluz picked up a new indication on Sep 9. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
+   "events": [
+    {
+     "sponsor": "BIOFRONTERA",
+     "kind": "new indication",
+     "brand": "Ameluz",
+     "class": "",
+     "date": "2026-09-09",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208081"
+    }
+   ]
+  },
+  {
+   "name": "Eisai",
+   "score": 25,
+   "product": "Ather",
+   "line": "Saw Lenvima picked up a new indication on Sep 24. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
+   "events": [
+    {
+     "sponsor": "EISAI INC",
+     "kind": "new indication",
+     "brand": "Lenvima",
+     "class": "Kinase Inhibitor",
+     "date": "2026-09-24",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206947"
+    }
+   ]
+  },
+  {
+   "name": "Blueprint Medicines",
+   "score": 25,
+   "product": "Ather",
+   "line": "Saw Ayvakit picked up a new indication on Oct 16. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
+   "events": [
+    {
+     "sponsor": "BLUEPRINT MEDICINES",
+     "kind": "new indication",
+     "brand": "Ayvakit",
+     "class": "Kinase Inhibitor",
+     "date": "2026-10-16",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212608"
+    }
+   ]
+  },
+  {
    "name": "Seagen",
    "score": 25,
    "product": "Ather",
@@ -2415,54 +2087,6 @@ window.SIGNALS = {
      "class": "Kinase Inhibitor",
      "date": "2026-10-07",
      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=213411"
-    }
-   ]
-  },
-  {
-   "name": "Apellis Pharms",
-   "score": 25,
-   "product": "Ather",
-   "line": "Saw Empaveli picked up a new indication on Aug 20. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
-   "events": [
-    {
-     "sponsor": "APELLIS PHARMS",
-     "kind": "new indication",
-     "brand": "Empaveli",
-     "class": "Complement Inhibitor",
-     "date": "2026-08-20",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215014"
-    }
-   ]
-  },
-  {
-   "name": "Altor Bioscience, Llc, An Indirect Wholly-Owned Su",
-   "score": 25,
-   "product": "Ather",
-   "line": "Saw Anktiva picked up a new indication on Oct 14. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
-   "events": [
-    {
-     "sponsor": "ALTOR BIOSCIENCE, LLC, AN INDIRECT WHOLLY-OWNED SU",
-     "kind": "new indication",
-     "brand": "Anktiva",
-     "class": "",
-     "date": "2026-10-14",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761336"
-    }
-   ]
-  },
-  {
-   "name": "Vifor Fresenius",
-   "score": 25,
-   "product": "Ather",
-   "line": "Saw Velphoro picked up a new indication on Oct 13. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
-   "events": [
-    {
-     "sponsor": "VIFOR FRESENIUS",
-     "kind": "new indication",
-     "brand": "Velphoro",
-     "class": "Phosphate Binder",
-     "date": "2026-10-13",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205109"
     }
    ]
   },
@@ -2483,34 +2107,18 @@ window.SIGNALS = {
    ]
   },
   {
-   "name": "Loxo Oncol",
+   "name": "Apellis Pharms",
    "score": 25,
    "product": "Ather",
-   "line": "Saw Jaypirca picked up a new indication on Oct 2. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
+   "line": "Saw Empaveli picked up a new indication on Aug 20. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
    "events": [
     {
-     "sponsor": "LOXO ONCOL",
+     "sponsor": "APELLIS PHARMS",
      "kind": "new indication",
-     "brand": "Jaypirca",
-     "class": "Kinase Inhibitor",
-     "date": "2026-10-02",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216059"
-    }
-   ]
-  },
-  {
-   "name": "Pharming",
-   "score": 25,
-   "product": "Ather",
-   "line": "Saw Joenja picked up a new indication on Sep 11. New indications bring a fresh wave of dosing and safety questions; Ather handles them around the clock against the updated label.",
-   "events": [
-    {
-     "sponsor": "PHARMING",
-     "kind": "new indication",
-     "brand": "Joenja",
-     "class": "",
-     "date": "2026-09-11",
-     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217759"
+     "brand": "Empaveli",
+     "class": "Complement Inhibitor",
+     "date": "2026-08-20",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215014"
     }
    ]
   }
